@@ -29,11 +29,14 @@ The reference images are just images of the numbers and suts in the corner of th
 ### Step 4:
 
 
+
 ### Step 5:
 
 A Camera shall be placed on the edge of the table that the UR5 is on.
 The Camera that i shall use in the main camera on my PC to see the cards on the table.
 The Camera should see the table witch is where the playing cards are going to be placed on.
+
+### Set 6:
 
 
 
