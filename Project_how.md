@@ -16,7 +16,7 @@ Make a program that sees if there are any cards on the talbe or as the program s
 a rectangles on the table. 
 
 This is going to be done by using OpenCV.
-This can be done by graying the image and shresholding the pixels so that there are only black and white pixels
+This can be done by bluring, graying and shresholding combined the pixels so that there are only black and white pixels
 
 
 ### Step 3:
@@ -26,7 +26,6 @@ with the other stored reference images of the other cards.
 
 To compare the reference image and the card on the table. 
 
-The code need to first
 The reference images are just images of the numbers and suts in the corner of the card in black and white!
 
 ### Step 4:
