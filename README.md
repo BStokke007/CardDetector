@@ -1,4 +1,4 @@
-# CardDetector
+# Computer Vison - Card Reader/Detector
 
 ## General Informasion
 
@@ -20,13 +20,16 @@ When removing the cards the window stay as the card was read last(lats frame det
 changes to the ten of clubs, what is left on the screen is two windows of teh same card (the ten of clubs). This dossn't only happen to the one mentioned, but can happen to anny card.
 
 
-#### test
+#### Possible Solutions
 
-There may change later so problem doesn't happen)
-
-### Probelm nr.2
-
-
+- A solution is to use the "destroyAllWindows()" function to make the windows of the cards in view only.
+    A draw back is that if a card/s is unstable it can't be compared and can also make a future problem witch the AI or info about what has happened (and more).
+- After comparing all the cards in view and the cards in a windw if there are anny double up cards we can destroy one of the windows (the oldest one) to make it all add up.
+    A braw back is that if we want to use more than one stack (52 cards) or two jokers the code can't pick/use up that informasion that are relevent to the play.
+- A solution is to use the "destroyAllWindows()" function to make the windows of the cards in view only, but have a delay so that unstable cards or shadwos can't have a big interference
+  to tha game or informastion in frame. This takes away the draw backs of the first solution and can be modified for the game (or while playing).
+    A draw back is that there is a delay that are constant that slows the speed of the game. Playing with the robot might be boring and not feel smoth or too digital.
+    
 ## How to make the code?
 
 ### Step 1
