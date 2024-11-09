@@ -10,6 +10,22 @@ and combine the codes in to one code.
 To test the individual part of the whole there should be a reference to 
 the output so that reason can do the rest.
 
+## Problems
+
+### Problem nr.1
+
+There is a problem when it comes to mare than one card, when creating a window for each of the card in totall in the test.
+One is a blank card (the back side of a joker) and the other ten of clubs, the left window was the ten and the right was the blank.
+When removing the cards the window stay as the card was read last(lats frame detected) as they should , but when I take the ten of clubs back in frame the right window (blank window)
+changes to the ten of clubs, what is left on the screen is two windows of teh same card (the ten of clubs). This dossn't only happen to the one mentioned, but can happen to anny card.
+
+
+#### test
+
+There may change later so problem doesn't happen)
+
+### Probelm nr.2
+
 
 ## How to make the code?
 
