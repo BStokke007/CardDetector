@@ -23,6 +23,7 @@ changes to the ten of clubs, what is left on the screen is two windows of teh sa
 #### Possible Solutions
 
 - A solution is to use the "destroyAllWindows()" function to make the windows of the cards in view only.
+
     -A draw back is that if a card/s is unstable it can't be compared and can also make a future problem witch the AI or info about what has happened (and more).
 - After comparing all the cards in view and the cards in a windw if there are anny double up cards we can destroy one of the windows (the oldest one) to make it all add up.
     -A braw back is that if we want to use more than one stack (52 cards) or two jokers the code can't pick/use up that informasion that are relevent to the play.
