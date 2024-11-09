@@ -1,6 +1,7 @@
 """
-This code is going to resize an image so that it can be campared later.
-There is a image witch has the correct dimensions and can be compared visually
+This code is going to resize an image so that it can be compared later ot the reference images.
+
+In addision there is an image witch has the correct dimensions and can be compared visually as a test.
 
 To resize to the correct size you must add the width and the height separately 
 All the refference images must be the same size and dimensions.
